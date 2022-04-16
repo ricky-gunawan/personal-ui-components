@@ -16,7 +16,7 @@ const Modal = () => {
           Modal 1
         </div>
         {modal && (
-          <div className="fixed top-0 left-0 h-screen w-screen bg-[rgba(0,0,0,0.6)]">
+          <div className="fixed top-0 left-0 h-screen w-screen bg-black/60">
             <div className="absolute left-1/2 top-1/2 z-10 h-60 w-96 -translate-x-1/2 -translate-y-1/2 rounded-lg bg-slate-200">
               <div className="border-b-2 border-slate-400 py-2 text-center">Header</div>
               <div className="absolute top-2 right-3 cursor-pointer font-bold" onClick={() => setModal(false)}>
@@ -38,7 +38,7 @@ const Modal = () => {
           Modal 1
         </div>
         {modal && (
-          <div className="fixed top-0 left-0 h-screen w-screen bg-[rgba(0,0,0,0.6)]">
+          <div className="fixed top-0 left-0 h-screen w-screen bg-black/60">
             <div className="absolute left-1/2 top-1/2 z-10 h-60 w-96 -translate-x-1/2 -translate-y-1/2 rounded-lg bg-slate-200">
               <div className="border-b-2 border-slate-400 py-2 text-center">Header</div>
               <div className="absolute top-2 right-3 cursor-pointer font-bold" onClick={() => setModal(false)}>

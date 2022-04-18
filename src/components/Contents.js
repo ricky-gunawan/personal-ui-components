@@ -9,6 +9,7 @@ import Dropdown from "./contents/Dropdown";
 import Modal from "./contents/Modal";
 import Progress from "./contents/Progress";
 import Swap from "./contents/Swap";
+import Table from "./contents/Table";
 
 const Contents = () => {
   return (
@@ -23,6 +24,7 @@ const Contents = () => {
       <Card />
       <Carousel />
       <Progress />
+      <Table />
       <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iste, praesentium illum ipsum nostrum minima nesciunt iure itaque ab debitis omnis veritatis officiis saepe maiores aliquam voluptates cum tempore quae quod. Nulla aut
         ex totam modi facere! Aspernatur exercitationem quaerat quidem veritatis perferendis expedita, iure ipsum quod, aperiam architecto a.

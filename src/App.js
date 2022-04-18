@@ -1,6 +1,5 @@
-import Button from "./components/contents/Button"
-import Contents from "./components/Contents"
-import Sidebar from "./components/Sidebar"
+import Contents from "./components/Contents";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
@@ -8,7 +7,7 @@ function App() {
       <Sidebar />
       <Contents />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

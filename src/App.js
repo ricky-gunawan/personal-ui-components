@@ -1,5 +1,6 @@
-import Contents from "./components/Contents";
-import Sidebar from "./components/Sidebar";
+import React from "react";
+import Contents from "./contents/Contents";
+import Sidebar from "./sidebar/Sidebar";
 
 function App() {
   return (

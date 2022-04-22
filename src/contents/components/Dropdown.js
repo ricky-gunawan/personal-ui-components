@@ -4,10 +4,6 @@ import ShowCode from "./ShowCode";
 
 const Dropdown = () => {
   const [show, setShow] = useState(false);
-  const [code, setCode] = useState(false);
-  const handleShowCode = () => {
-    !code ? setCode(true) : setCode(false);
-  };
   const handleDropdown = () => {
     show ? setShow(false) : setShow(true);
   };
@@ -53,8 +49,6 @@ const Dropdown = () => {
         </div>
       </div>
       <ShowCode
-        code={code}
-        handleShowCode={handleShowCode}
         codeString={`<div className="flex justify-center gap-4">
     <div className="group relative cursor-pointer">
       <div className="w-fit rounded-md bg-slate-700 p-2 text-white hover:bg-slate-900">Bottom Right</div>

@@ -1,14 +1,16 @@
 import React from "react";
 import Button from "./components/Button";
 import Dropdown from "./components/Dropdown";
+import Modal from "./components/Modal";
+import Toggle from "./components/Toggle";
 
 const Contents = () => {
   return (
     <div className="ml-72 px-6">
       <Button />
       <Dropdown />
-      {/* <Modal /> */}
-      {/* <Swap /> */}
+      <Modal />
+      <Toggle />
       {/* <Alert /> */}
       {/* <Avatar /> */}
       {/* <Badge /> */}

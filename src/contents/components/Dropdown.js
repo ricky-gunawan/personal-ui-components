@@ -13,28 +13,28 @@ const Dropdown = () => {
     <div className="flex justify-center gap-4">
       <div className="group relative cursor-pointer">
         <div className="w-fit rounded-md bg-primary p-2 text-textSecondary">Bottom Right</div>
-        <ul className="absolute top-full left-0 hidden w-max rounded-lg border-2 border-slate-300 bg-bgPrimary p-4 group-hover:block">
+        <ul className="absolute top-full left-0 z-10 hidden w-max rounded-lg border-2 border-slate-300 bg-bgPrimary p-4 group-hover:block">
           <li className="rounded-md p-2 hover:bg-bgSecondary">Firts Option</li>
           <li className="rounded-md p-2 hover:bg-bgSecondary">Second Option</li>
         </ul>
       </div>
       <div className="group relative cursor-pointer">
         <div className="w-fit rounded-md bg-primary p-2 text-textSecondary ">Bottom Left</div>
-        <ul className="absolute top-full right-0 hidden w-max rounded-lg border-2 border-slate-300 bg-bgPrimary p-4 group-hover:block">
+        <ul className="absolute top-full right-0 z-10 hidden w-max rounded-lg border-2 border-slate-300 bg-bgPrimary p-4 group-hover:block">
           <li className="rounded-md p-2 hover:bg-bgSecondary">Firts Option</li>
           <li className="rounded-md p-2 hover:bg-bgSecondary">Second Option</li>
         </ul>
       </div>
       <div className="group relative cursor-pointer">
         <div className="w-fit rounded-md bg-primary p-2 text-textSecondary">Top Right</div>
-        <ul className="absolute bottom-full left-0 hidden w-max rounded-lg border-2 border-slate-300 bg-bgPrimary p-4 group-hover:block">
+        <ul className="absolute bottom-full left-0 z-10 hidden w-max rounded-lg border-2 border-slate-300 bg-bgPrimary p-4 group-hover:block">
           <li className="rounded-md p-2 hover:bg-bgSecondary">Firts Option</li>
           <li className="rounded-md p-2 hover:bg-bgSecondary">Second Option</li>
         </ul>
       </div>
       <div className="group relative cursor-pointer">
         <div className="w-fit rounded-md bg-primary p-2 text-textSecondary">Top Left</div>
-        <ul className="absolute bottom-full right-0 hidden w-max rounded-lg border-2 border-slate-300 bg-bgPrimary p-4 group-hover:block">
+        <ul className="absolute bottom-full right-0 z-10 hidden w-max rounded-lg border-2 border-slate-300 bg-bgPrimary p-4 group-hover:block">
           <li className="rounded-md p-2 hover:bg-bgSecondary">Firts Option</li>
           <li className="rounded-md p-2 hover:bg-bgSecondary">Second Option</li>
         </ul>
@@ -43,7 +43,7 @@ const Dropdown = () => {
         <div onClick={handleDropdown} className="w-fit rounded-md bg-primary p-2 text-textSecondary">
           Click !
         </div>
-        <ul className={`absolute ${show ? "block" : "hidden"} top-0 left-full z-20 ml-2 w-max rounded-lg border-2 border-slate-300 bg-bgPrimary p-4`}>
+        <ul className={`absolute ${show ? "block" : "hidden"} top-0 left-full z-10 ml-2 w-max rounded-lg border-2 border-slate-300 bg-bgPrimary p-4`}>
           <li className="rounded-md p-2 hover:bg-bgSecondary">Firts Option</li>
           <li className="rounded-md p-2 hover:bg-bgSecondary">Second Option</li>
         </ul>

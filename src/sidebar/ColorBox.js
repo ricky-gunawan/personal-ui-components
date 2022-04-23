@@ -20,8 +20,8 @@ const ColorThemes = () => {
           <ul className="flex gap-2 self-center">
             <li className="aspect-square w-4 self-center rounded-full border border-slate-300 bg-[#940C2B]"></li>
             <li className="aspect-square w-4 self-center rounded-full border border-slate-300 bg-[#628d70]"></li>
-            <li className="aspect-square w-4 self-center rounded-full border border-slate-300 bg-[#F2F2F2]"></li>
-            <li className="aspect-square w-4 self-center rounded-full border border-slate-300 bg-[#D9D9D9]"></li>
+            <li className="aspect-square w-4 self-center rounded-full border border-slate-300 bg-[#fafafa]"></li>
+            <li className="aspect-square w-4 self-center rounded-full border border-slate-300 bg-[#CACBBC]"></li>
           </ul>
         </label>
       </div>
@@ -33,7 +33,7 @@ const ColorThemes = () => {
             <li className="aspect-square w-4 self-center rounded-full border border-slate-300 bg-[#580F55]"></li>
             <li className="aspect-square w-4 self-center rounded-full border border-slate-300 bg-[#9e6565]"></li>
             <li className="aspect-square w-4 self-center rounded-full border border-slate-300 bg-[#FFFFFF]"></li>
-            <li className="aspect-square w-4 self-center rounded-full border border-slate-300 bg-[#BCAA99]"></li>
+            <li className="aspect-square w-4 self-center rounded-full border border-slate-300 bg-[#DECBBC]"></li>
           </ul>
         </label>
       </div>
@@ -45,7 +45,7 @@ const ColorThemes = () => {
             <li className="aspect-square w-4 self-center rounded-full border border-slate-300 bg-[#c96f16]"></li>
             <li className="aspect-square w-4 self-center rounded-full border border-slate-300 bg-[#7377a1]"></li>
             <li className="aspect-square w-4 self-center rounded-full border border-slate-300 bg-[#FFFFFF]"></li>
-            <li className="aspect-square w-4 self-center rounded-full border border-slate-300 bg-[#E6E6E6]"></li>
+            <li className="aspect-square w-4 self-center rounded-full border border-slate-300 bg-[#DECBD7]"></li>
           </ul>
         </label>
       </div>

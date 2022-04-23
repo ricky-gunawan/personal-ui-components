@@ -1,7 +1,10 @@
 import React from "react";
+import Alert from "./components/Alert";
+import Badge from "./components/Badge";
 import Button from "./components/Button";
 import Dropdown from "./components/Dropdown";
 import Modal from "./components/Modal";
+import Progress from "./components/Progress";
 import Toggle from "./components/Toggle";
 
 const Contents = () => {
@@ -11,12 +14,12 @@ const Contents = () => {
       <Dropdown />
       <Modal />
       <Toggle />
-      {/* <Alert /> */}
+      <Alert />
+      <Badge />
+      <Progress />
       {/* <Avatar /> */}
-      {/* <Badge /> */}
       {/* <Card /> */}
       {/* <Carousel /> */}
-      {/* <Progress /> */}
       {/* <Table /> */}
       {/* <DataInput /> */}
       <div>

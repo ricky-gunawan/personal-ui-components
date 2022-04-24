@@ -3,7 +3,7 @@ import jsxToString from "jsx-to-string";
 import Container from "../Container";
 import ShowCode from "../ShowCode";
 
-const Progress = () => {
+const Loader = () => {
   const code = (
     <div className="flex justify-evenly gap-4">
       <div className="h-2 w-48 self-center overflow-hidden rounded-md bg-bgPrimary">
@@ -15,11 +15,11 @@ const Progress = () => {
 
   const codeString = jsxToString(code);
   return (
-    <Container label="Progress">
+    <Container label="Loader">
       {code}
       <ShowCode codeString={codeString} />
     </Container>
   );
 };
 
-export default Progress;
+export default Loader;

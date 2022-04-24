@@ -3,8 +3,8 @@ import Alert from "./components/Alert";
 import Badge from "./components/Badge";
 import Button from "./components/Button";
 import Dropdown from "./components/Dropdown";
+import Loader from "./components/Loader";
 import Modal from "./components/Modal";
-import Progress from "./components/Progress";
 import Toggle from "./components/Toggle";
 
 const Contents = () => {
@@ -16,7 +16,7 @@ const Contents = () => {
       <Toggle />
       <Alert />
       <Badge />
-      <Progress />
+      <Loader />
       {/* <Avatar /> */}
       {/* <Card /> */}
       {/* <Carousel /> */}

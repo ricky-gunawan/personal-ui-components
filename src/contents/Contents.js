@@ -1,5 +1,6 @@
 import React from "react";
 import Alert from "./components/Alert";
+import Avatar from "./components/Avatar";
 import Badge from "./components/Badge";
 import Button from "./components/Button";
 import Checkbox from "./components/Checkbox";
@@ -8,6 +9,8 @@ import Loader from "./components/Loader";
 import Modal from "./components/Modal";
 import Radio from "./components/Radio";
 import Range from "./components/Range";
+import Select from "./components/Select";
+import Textarea from "./components/Textarea";
 import TextInput from "./components/TextInput";
 import Toggle from "./components/Toggle";
 
@@ -25,8 +28,9 @@ const Contents = () => {
       <Checkbox />
       <Radio />
       <Range />
-      {/* <DataInput /> */}
-      {/* <Avatar /> */}
+      <Select />
+      <Textarea />
+      <Avatar />
       {/* <Card /> */}
       {/* <Carousel /> */}
       {/* <Table /> */}

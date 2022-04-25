@@ -6,7 +6,7 @@ import ShowCode from "../ShowCode";
 const Range = () => {
   const code = (
     <div className="flex flex-col items-center">
-      <input className="w-1/2 rounded-md text-textPrimary" type="range" name="range" id="range" min="0" max="100" value="70" step="10" />
+      <input className="w-1/2 rounded-md text-textPrimary" type="range" name="range" id="range" min="0" max="100" step="10" defaultValue={20} />
       <div className="flex w-1/2 justify-between px-1.5">
         <span>|</span>
         <span>|</span>

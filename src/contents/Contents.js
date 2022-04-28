@@ -4,6 +4,7 @@ import Avatar from "./components/Avatar";
 import Badge from "./components/Badge";
 import Button from "./components/Button";
 import Checkbox from "./components/Checkbox";
+import Drawer from "./components/Drawer";
 import Dropdown from "./components/Dropdown";
 import Loader from "./components/Loader";
 import Modal from "./components/Modal";
@@ -16,7 +17,7 @@ import Toggle from "./components/Toggle";
 
 const Contents = () => {
   return (
-    <div className="ml-72 px-6">
+    <div className="px-6 lg:ml-72">
       <Button />
       <Dropdown />
       <Modal />
@@ -31,6 +32,7 @@ const Contents = () => {
       <Select />
       <Textarea />
       <Avatar />
+      <Drawer />
       {/* <Card /> */}
       {/* <Carousel /> */}
       {/* <Table /> */}

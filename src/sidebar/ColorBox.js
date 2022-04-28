@@ -11,7 +11,8 @@ const ColorThemes = () => {
   return (
     <div className="m-4 rounded-md bg-bgPrimary p-4 shadow-md">
       <h2 className="text-lg font-bold text-textPrimary">
-        <span className="font- font-extrabold text-primary">Color</span> Theme
+        <span className="font- font-extrabold text-primary">Color </span>
+        Theme
       </h2>
       <div className="mr-4">
         <input className="peer hidden" type="radio" name="theme" id="theme_1" defaultChecked />

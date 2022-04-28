@@ -13,7 +13,7 @@ const Checkbox = () => {
         </label>
       </div>
       <div className="flex items-center">
-        <input className=" rounded-md text-secondary focus:ring-2 focus:ring-secondary" type="checkbox" name="checkbox" id="checkbox_2" />
+        <input className=" rounded-md text-primary focus:ring-2 focus:ring-primary" type="checkbox" name="checkbox" id="checkbox_2" />
         <label htmlFor="checkbox_2" className="ml-2 ">
           Checkbox 2
         </label>

@@ -2,12 +2,14 @@ import React from "react";
 import Alert from "./components/Alert";
 import Avatar from "./components/Avatar";
 import Badge from "./components/Badge";
+import Breadcrumbs from "./components/Breadcrumbs";
 import Button from "./components/Button";
 import Checkbox from "./components/Checkbox";
 import Drawer from "./components/Drawer";
 import Dropdown from "./components/Dropdown";
 import Loader from "./components/Loader";
 import Modal from "./components/Modal";
+import Navbar from "./components/Navbar";
 import Radio from "./components/Radio";
 import Range from "./components/Range";
 import Select from "./components/Select";
@@ -33,6 +35,8 @@ const Contents = () => {
       <Textarea />
       <Avatar />
       <Drawer />
+      <Breadcrumbs />
+      <Navbar />
       {/* <Card /> */}
       {/* <Carousel /> */}
       {/* <Table /> */}

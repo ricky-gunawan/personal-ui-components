@@ -5,11 +5,11 @@ import ShowCode from "../ShowCode";
 
 const TextInput = () => {
   const code = (
-    <div className="mx-auto block w-60">
+    <div className="mx-auto w-60">
       <label className="ml-2" htmlFor="username">
         Username
       </label>
-      <input className="block h-11 rounded-md focus:border focus:border-primary focus:ring-2 focus:ring-primary" type="text" name="username" id="username" placeholder="Username" />
+      <input className="block h-11 w-full rounded-md focus:border focus:border-primary focus:ring-2 focus:ring-primary" type="text" name="username" id="username" placeholder="Username" />
     </div>
   );
 

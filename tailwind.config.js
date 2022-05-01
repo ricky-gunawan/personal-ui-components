@@ -5,7 +5,7 @@ module.exports = {
       keyframes: {
         translation: {
           "0%, 100%": { transform: "translateX(-100%)" },
-          "50%": { transform: "translateX(12rem)" },
+          "50%": { transform: "translateX(300%)" },
         },
       },
       animation: {

@@ -6,7 +6,7 @@ import ShowCode from "../ShowCode";
 const Alert = () => {
   const code = (
     <div className="flex justify-center">
-      <div className="flex w-1/3 rounded-md bg-yellow-400 p-2">
+      <div className="flex w-fit rounded-md bg-yellow-400 p-2">
         <div className="p-2">⚠</div>
         <div className="p-2">Warning: Invalid input!</div>
       </div>

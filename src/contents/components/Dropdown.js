@@ -25,20 +25,6 @@ const Dropdown = () => {
           <li className="rounded-md p-2 hover:bg-bgSecondary">Second Option</li>
         </ul>
       </div>
-      <div className="group relative cursor-pointer">
-        <div className="w-fit rounded-md bg-primary p-2 text-textSecondary">Top Right</div>
-        <ul className="absolute bottom-full left-0 z-10 hidden w-max rounded-lg border-2 border-slate-300 bg-bgPrimary p-4 group-hover:block">
-          <li className="rounded-md p-2 hover:bg-bgSecondary">Firts Option</li>
-          <li className="rounded-md p-2 hover:bg-bgSecondary">Second Option</li>
-        </ul>
-      </div>
-      <div className="group relative cursor-pointer">
-        <div className="w-fit rounded-md bg-primary p-2 text-textSecondary">Top Left</div>
-        <ul className="absolute bottom-full right-0 z-10 hidden w-max rounded-lg border-2 border-slate-300 bg-bgPrimary p-4 group-hover:block">
-          <li className="rounded-md p-2 hover:bg-bgSecondary">Firts Option</li>
-          <li className="rounded-md p-2 hover:bg-bgSecondary">Second Option</li>
-        </ul>
-      </div>
       <div className="relative cursor-pointer">
         <div onClick={handleDropdown} className="w-fit rounded-md bg-primary p-2 text-textSecondary">
           Click !

@@ -6,10 +6,10 @@ import ShowCode from "../ShowCode";
 const Textarea = () => {
   const code = (
     <div className="flex flex-col items-center">
-      <label className="w-1/2 px-2" htmlFor="select">
+      <label className="w-1/2 min-w-[15rem] px-2" htmlFor="select">
         Input your story
       </label>
-      <textarea className="w-1/2 rounded-lg focus:border focus:border-primary focus:ring-2 focus:ring-primary" name="textarea" id="textarea" rows="5" placeholder="Type here"></textarea>
+      <textarea className="w-1/2 min-w-[15rem] rounded-lg focus:border focus:border-primary focus:ring-2 focus:ring-primary" name="textarea" id="textarea" rows="5" placeholder="Type here"></textarea>
     </div>
   );
 

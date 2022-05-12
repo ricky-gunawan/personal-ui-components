@@ -4,15 +4,22 @@ import Avatar from "./components/Avatar";
 import Badge from "./components/Badge";
 import Breadcrumbs from "./components/Breadcrumbs";
 import Button from "./components/Button";
+import Card from "./components/Card";
+import Carousel from "./components/Carousel";
 import Checkbox from "./components/Checkbox";
 import Drawer from "./components/Drawer";
 import Dropdown from "./components/Dropdown";
+import InputGroup from "./components/InputGroup";
 import Loader from "./components/Loader";
 import Modal from "./components/Modal";
 import Navbar from "./components/Navbar";
+import Pagination from "./components/Pagination";
 import Radio from "./components/Radio";
 import Range from "./components/Range";
 import Select from "./components/Select";
+import Step from "./components/Step";
+import Tab from "./components/Tab";
+import Table from "./components/Table";
 import Textarea from "./components/Textarea";
 import TextInput from "./components/TextInput";
 import Toggle from "./components/Toggle";
@@ -37,41 +44,13 @@ const Contents = () => {
       <Drawer />
       <Breadcrumbs />
       <Navbar />
-      {/* <Card /> */}
-      {/* <Carousel /> */}
-      {/* <Table /> */}
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iste, praesentium illum ipsum nostrum minima nesciunt iure itaque ab debitis omnis veritatis officiis saepe maiores aliquam voluptates cum tempore quae quod. Nulla aut
-        ex totam modi facere! Aspernatur exercitationem quaerat quidem veritatis perferendis expedita, iure ipsum quod, aperiam architecto a.
-      </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iste, praesentium illum ipsum nostrum minima nesciunt iure itaque ab debitis omnis veritatis officiis saepe maiores aliquam voluptates cum tempore quae quod. Nulla aut
-        ex totam modi facere! Aspernatur exercitationem quaerat quidem veritatis perferendis expedita, iure ipsum quod, aperiam architecto a.
-      </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iste, praesentium illum ipsum nostrum minima nesciunt iure itaque ab debitis omnis veritatis officiis saepe maiores aliquam voluptates cum tempore quae quod. Nulla aut
-        ex totam modi facere! Aspernatur exercitationem quaerat quidem veritatis perferendis expedita, iure ipsum quod, aperiam architecto a.
-      </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iste, praesentium illum ipsum nostrum minima nesciunt iure itaque ab debitis omnis veritatis officiis saepe maiores aliquam voluptates cum tempore quae quod. Nulla aut
-        ex totam modi facere! Aspernatur exercitationem quaerat quidem veritatis perferendis expedita, iure ipsum quod, aperiam architecto a.
-      </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iste, praesentium illum ipsum nostrum minima nesciunt iure itaque ab debitis omnis veritatis officiis saepe maiores aliquam voluptates cum tempore quae quod. Nulla aut
-        ex totam modi facere! Aspernatur exercitationem quaerat quidem veritatis perferendis expedita, iure ipsum quod, aperiam architecto a.
-      </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iste, praesentium illum ipsum nostrum minima nesciunt iure itaque ab debitis omnis veritatis officiis saepe maiores aliquam voluptates cum tempore quae quod. Nulla aut
-        ex totam modi facere! Aspernatur exercitationem quaerat quidem veritatis perferendis expedita, iure ipsum quod, aperiam architecto a.
-      </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iste, praesentium illum ipsum nostrum minima nesciunt iure itaque ab debitis omnis veritatis officiis saepe maiores aliquam voluptates cum tempore quae quod. Nulla aut
-        ex totam modi facere! Aspernatur exercitationem quaerat quidem veritatis perferendis expedita, iure ipsum quod, aperiam architecto a.
-      </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iste, praesentium illum ipsum nostrum minima nesciunt iure itaque ab debitis omnis veritatis officiis saepe maiores aliquam voluptates cum tempore quae quod. Nulla aut
-        ex totam modi facere! Aspernatur exercitationem quaerat quidem veritatis perferendis expedita, iure ipsum quod, aperiam architecto a.
-      </div>
+      <Pagination />
+      <Step />
+      <Tab />
+      <Card />
+      <Carousel />
+      <Table />
+      <InputGroup />
     </div>
   );
 };

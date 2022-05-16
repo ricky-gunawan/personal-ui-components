@@ -8,7 +8,7 @@ const Tab = () => {
     <div className="flex items-center justify-center bg-bgPrimary py-4">
       <div className="flex">
         <div className="border-b-2 border-bgSecondary px-2 py-1 font-bold">Tab 1</div>
-        <div className="border-b-2 border-secondary px-2 py-1 font-bold">Tab 2</div>
+        <div className="border-b-2 border-primary px-2 py-1 font-bold">Tab 2</div>
         <div className="border-b-2 border-bgSecondary px-2 py-1 font-bold">Tab 3</div>
       </div>
     </div>

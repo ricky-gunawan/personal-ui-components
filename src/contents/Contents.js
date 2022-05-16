@@ -9,7 +9,6 @@ import Carousel from "./components/Carousel";
 import Checkbox from "./components/Checkbox";
 import Drawer from "./components/Drawer";
 import Dropdown from "./components/Dropdown";
-import InputGroup from "./components/InputGroup";
 import Loader from "./components/Loader";
 import Modal from "./components/Modal";
 import Navbar from "./components/Navbar";
@@ -30,6 +29,7 @@ const Contents = () => {
       <Button />
       <Dropdown />
       <Modal />
+      <Drawer />
       <Toggle />
       <Alert />
       <Badge />
@@ -41,7 +41,6 @@ const Contents = () => {
       <Select />
       <Textarea />
       <Avatar />
-      <Drawer />
       <Breadcrumbs />
       <Navbar />
       <Pagination />
@@ -50,7 +49,6 @@ const Contents = () => {
       <Card />
       <Carousel />
       <Table />
-      <InputGroup />
     </div>
   );
 };

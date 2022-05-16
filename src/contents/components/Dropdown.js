@@ -29,7 +29,7 @@ const Dropdown = () => {
         <div onClick={handleDropdown} className="w-fit rounded-md bg-primary p-2 text-textSecondary">
           Click !
         </div>
-        <ul className={`absolute ${show ? "block" : "hidden"} top-0 left-full z-10 ml-2 w-max rounded-lg border-2 border-slate-300 bg-bgPrimary p-4`}>
+        <ul className={`absolute ${show ? "block" : "hidden"} top-full right-0 z-10 ml-2 w-max rounded-lg border-2 border-slate-300 bg-bgPrimary p-4`}>
           <li className="rounded-md p-2 hover:bg-bgSecondary">Firts Option</li>
           <li className="rounded-md p-2 hover:bg-bgSecondary">Second Option</li>
         </ul>

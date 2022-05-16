@@ -7,13 +7,13 @@ const Step = () => {
   const code = (
     <div className="flex items-center justify-center">
       <div className="flex items-center">
-        <div className="rounded-full bg-bgPrimary px-2">1</div>
-        <span className="h-2 w-8 bg-bgPrimary"></span>
-        <div className="rounded-full bg-bgPrimary px-2">2</div>
-        <span className="h-2 w-8 bg-bgPrimary"></span>
-        <div className="rounded-full bg-bgPrimary px-2">3</div>
-        <span className="h-2 w-8 bg-bgPrimary"></span>
-        <div className="rounded-full bg-bgPrimary px-2">4</div>
+        <div className="z-10 rounded-full bg-primary px-2 text-textSecondary">1</div>
+        <span className="h-2 w-8 scale-x-105 bg-primary"></span>
+        <div className="z-10 rounded-full bg-primary px-2 text-textSecondary">2</div>
+        <span className="h-2 w-8 scale-x-105 bg-bgPrimary"></span>
+        <div className="z-10 rounded-full bg-bgPrimary px-2">3</div>
+        <span className="h-2 w-8 scale-x-105 bg-bgPrimary"></span>
+        <div className="z-10 rounded-full bg-bgPrimary px-2">4</div>
       </div>
     </div>
   );

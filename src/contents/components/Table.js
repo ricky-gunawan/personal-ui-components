@@ -5,16 +5,16 @@ import ShowCode from "../ShowCode";
 
 const Table = () => {
   const code = (
-    <table className="ml-4">
+    <table className="mx-auto">
       <thead>
-        <tr>
+        <tr className="bg-secondary text-textSecondary">
           <th className="w-8"></th>
           <th className="w-40 text-left">Name</th>
           <th className="w-40 text-left">Age</th>
           <th className="w-40 text-left">Job</th>
         </tr>
       </thead>
-      <tbody className="bg-white">
+      <tbody className="bg-bgPrimary">
         <tr>
           <td className="pl-2 font-bold">1</td>
           <td>Tom</td>

@@ -13,7 +13,11 @@ const Navbar = () => {
         <li>Contact</li>
       </ul>
       <div className="group relative cursor-pointer sm:hidden">
-        <div className="w-fit rounded-md bg-primary p-2 text-textSecondary">Bottom Right</div>
+        <div className="mr-2 w-4 py-1">
+          <div className="-translate-y-full border-t-4 border-textPrimary"></div>
+          <div className="border-t-4 border-textPrimary"></div>
+          <div className="translate-y-full border-t-4 border-textPrimary"></div>
+        </div>
         <ul className="absolute top-full left-0 z-10 hidden w-max rounded-lg border-2 border-slate-300 bg-bgPrimary p-4 group-hover:block">
           <li className="rounded-md p-2 hover:bg-bgSecondary">Pricing</li>
           <li className="rounded-md p-2 hover:bg-bgSecondary">Products</li>

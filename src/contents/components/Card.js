@@ -5,18 +5,18 @@ import ShowCode from "../ShowCode";
 
 const Card = () => {
   const code = (
-    <div className="flex flex-wrap justify-around rounded-lg bg-[url('https://source.unsplash.com/2500x2000/?office')] p-2">
-      <div className="aspect-[10/12] w-4/12 overflow-hidden rounded-lg bg-white shadow-md">
+    <div className="flex flex-col items-center justify-around gap-8 p-2 md:flex-row">
+      <div className="aspect-[10/12] w-80 overflow-hidden rounded-lg bg-bgPrimary shadow-md">
         <div className="h-1/2 overflow-hidden">
           <img src="https://source.unsplash.com/500x500/?gadget" alt="" />
         </div>
         <div className="m-4 text-lg font-bold">Title</div>
         <div className="m-4 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, totam.</div>
         <div className="flex justify-end">
-          <button className="m-4 rounded-md bg-yellow-600 p-2 hover:bg-yellow-700">Buy now</button>
+          <button className="m-4 rounded-md bg-primary p-2 text-textSecondary hover:scale-105">Buy now</button>
         </div>
       </div>
-      <div className="aspect-[10/12] w-4/12 overflow-hidden rounded-lg bg-white/30 shadow-md backdrop-blur-sm">
+      <div className="aspect-[10/12] w-80 overflow-hidden rounded-lg bg-white/30 shadow-md backdrop-blur-sm">
         <div className="h-1/2 overflow-hidden">
           <img src="https://source.unsplash.com/500x500/?laptop" alt="" />
         </div>
@@ -26,7 +26,7 @@ const Card = () => {
         </div>
         <div className="m-4 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, totam.</div>
         <div className="flex justify-end">
-          <button className="m-4 rounded-md bg-yellow-600 p-2 hover:bg-yellow-700">Buy now</button>
+          <button className="m-4 rounded-md bg-primary p-2 text-textSecondary hover:scale-105">Buy now</button>
         </div>
       </div>
     </div>

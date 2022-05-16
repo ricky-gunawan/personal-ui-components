@@ -7,12 +7,3 @@
     @apply bg-bgPrimary;
   }
 }
-
-.caro::-webkit-scrollbar {
-  display: none;
-}
-
-.caro {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}

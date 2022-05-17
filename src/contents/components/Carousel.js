@@ -20,7 +20,7 @@ const Carousel = () => {
     }
   };
   const code = (
-    <div className="relative m-4 bg-black">
+    <div className="relative bg-black">
       <div className="aspect-[12/6] w-full overflow-hidden">
         <img className={active === 1 ? "" : "hidden"} src="https://source.unsplash.com/1200x600/?car+bmw" width="1200" height="600" alt="" />
         <img className={active === 2 ? "" : "hidden"} src="https://source.unsplash.com/1200x600/?toyota+supra" width="1200" height="600" alt="" />

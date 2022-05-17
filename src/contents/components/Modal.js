@@ -13,7 +13,7 @@ const Modal = () => {
       </div>
       {showModal && (
         <div className="fixed top-0 left-0 z-20 h-screen w-screen bg-black/60">
-          <div className="absolute left-1/2 top-1/2 z-10 h-60 w-96 -translate-x-1/2 -translate-y-1/2 rounded-lg bg-bgSecondary">
+          <div className="absolute left-1/2 top-1/2 z-10 h-60 w-72 -translate-x-1/2 -translate-y-1/2 rounded-lg bg-bgSecondary md:w-96">
             <div className="border-b-2 border-slate-300 py-2 text-center text-textPrimary">Header</div>
             <div className="absolute top-2 right-3 cursor-pointer font-bold" onClick={() => setShowModal(false)}>
               ❌

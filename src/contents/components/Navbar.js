@@ -13,7 +13,7 @@ const Navbar = () => {
         <li>Contact</li>
       </ul>
       <div className="group relative cursor-pointer sm:hidden">
-        <div className="mr-2 w-4 py-1">
+        <div className="w-4 py-1 md:mr-2">
           <div className="-translate-y-full border-t-4 border-textPrimary"></div>
           <div className="border-t-4 border-textPrimary"></div>
           <div className="translate-y-full border-t-4 border-textPrimary"></div>

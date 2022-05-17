@@ -12,14 +12,14 @@ const Dropdown = () => {
   const code = (
     <div className="flex justify-center gap-4">
       <div className="group relative cursor-pointer">
-        <div className="w-fit rounded-md bg-primary p-2 text-textSecondary">Bottom Right</div>
+        <div className="w-min rounded-md bg-primary p-1 text-textSecondary sm:w-fit">Bottom Right</div>
         <ul className="absolute top-full left-0 z-10 hidden w-max rounded-lg border-2 border-slate-300 bg-bgPrimary p-4 group-hover:block">
           <li className="rounded-md p-2 hover:bg-bgSecondary">Firts Option</li>
           <li className="rounded-md p-2 hover:bg-bgSecondary">Second Option</li>
         </ul>
       </div>
       <div className="group relative cursor-pointer">
-        <div className="w-fit rounded-md bg-primary p-2 text-textSecondary ">Bottom Left</div>
+        <div className="w-min rounded-md bg-primary p-2 text-textSecondary sm:w-fit ">Bottom Left</div>
         <ul className="absolute top-full right-0 z-10 hidden w-max rounded-lg border-2 border-slate-300 bg-bgPrimary p-4 group-hover:block">
           <li className="rounded-md p-2 hover:bg-bgSecondary">Firts Option</li>
           <li className="rounded-md p-2 hover:bg-bgSecondary">Second Option</li>

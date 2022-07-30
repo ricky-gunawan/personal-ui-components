@@ -1,6 +1,6 @@
 {
-  "name": "my-personal-components",
-  "homepage": "http://rickyindragunawan.github.io/personal-ui-components/",
+  "name": "my-personal-ui-components",
+  "homepage": "http://ricky-gunawan.github.io/personal-ui-components/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
